@@ -8,8 +8,6 @@ import java.time.Duration;
 
 import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selenide.$;
-import com.codeborne.selenide.Condition;
-import static com.codeborne.selenide.Selenide.sleep;
 
 public class VerificationPage {
     private SelenideElement codeField = $("[data-test-id=code] input");

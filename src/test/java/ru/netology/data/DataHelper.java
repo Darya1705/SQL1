@@ -59,7 +59,7 @@ public class DataHelper {
 
             try (
                     var conn = DriverManager.getConnection(
-                            "jdbc:mysql://localhost:3306/app-db", "user", "pass"
+                            "jdbc:mysql://localhost:3306/app", "app", "pass"
                     );
                     var codeStmt = conn.prepareStatement(codeSQL);
             ) {
